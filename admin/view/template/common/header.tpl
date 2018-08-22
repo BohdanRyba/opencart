@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
 <head>
+  <?php echo $after_head; ?>
 <meta charset="UTF-8" />
 <title><?php echo $title; ?></title>
 <base href="<?php echo $base; ?>" />
@@ -32,6 +33,7 @@
 <?php } ?>
 </head>
 <body>
+<?php echo $after_body; ?>
 <div id="container">
 <header id="header" class="navbar navbar-static-top">
   <div class="navbar-header">
